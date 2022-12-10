@@ -100,6 +100,16 @@ footer {
     background-color: #F7DAE8;
 }
 
+button {
+    font-family: 'East Sea Dokdo', cursive;
+    font-size: 2.25rem;
+    text-align: center;
+    line-height: 29px;
+    border: none;
+    color: #FFF;
+    padding: 8px 20px;
+}
+
 /* SECTION 1 NEW PRODUCTS STYLES */
 
 .newProducts {
@@ -120,6 +130,10 @@ footer {
 
 .newProducts .imageContainer {
     width: 30%;
+}
+
+.newProducts button {
+    background-color: #0178A5;
 }
 
 /* SECTION 2 LATEST EXHIBITIONS */
@@ -146,7 +160,7 @@ footer {
     justify-content: space-evenly;
 }
 
-/* SECTION 4 BRUSHES STYLES */
+/* SECTION 4 BRUSHES AND PAINT STYLES */
 
 .brushes {
     padding: 0;
@@ -165,14 +179,16 @@ footer {
     width: 50%;
 }
 
-/* SECTION 5 PAINTS STYLES */
-
-.paints .wrapper{
-    display: flex;
+button {
+    background-color: #A7059B;
 }
 
 /* FOOTER STYLES */
 
 footer {
     
+}
+
+footer button {
+    background-color: #0178A5;
 }
