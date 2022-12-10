@@ -95,8 +95,7 @@ footer {
 }
 
 .exhibitions,
-.brushes,
-.paints {
+.brushesAndPaint {
     background-color: #F7DAE8;
 }
 
@@ -162,24 +161,25 @@ button {
 
 /* SECTION 4 BRUSHES AND PAINT STYLES */
 
-.brushes {
+.brushesAndPaint {
     padding: 0;
+    
 }
 
-.brushes .wrapper {
+.brushesAndPaint .customWrapper {
     display: flex;
-    margin-right: 0;
+    flex-wrap: wrap;
 }
 
-.brushes .imageContainer {
+.brushesAndPaint .imageContainer {
     width: 50%;
 }
 
-.brushes .textContainer {
+.brushesAndPaint .textContainer {
     width: 50%;
 }
 
-button {
+.brushesAndPaint button {
     background-color: #A7059B;
 }
 
