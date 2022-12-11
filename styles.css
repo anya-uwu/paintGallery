@@ -208,6 +208,7 @@ i {
 footer .wrapper {
     display: flex;
     justify-content: space-between;
+    padding: 50px;
 }
 
 footer p {
@@ -218,16 +219,24 @@ footer button {
     background-color: #0178A5;
 }
 
-p span {
-    display: block;
-}
-
 footer ul {
     display: block;
 }
 
+p span {
+    display: block;
+}
+
+.newsletter {
+    text-align: center;
+}
+
 label {
     display: block;
+}
+
+input {
+    border: none;
 }
 
 .contacts {
