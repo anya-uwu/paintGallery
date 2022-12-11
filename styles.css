@@ -16,7 +16,7 @@ html {
 
 .wrapper {
     margin: 0 auto;
-    max-width: 1080px;
+    max-width: 1200px;
     width: 90%;
 }
 
@@ -121,14 +121,11 @@ button {
 
 .newProducts .imageContainer {
     margin-right: 20px;
+    width: 30%;
 }
 
 .newProducts .textContainer {
     width: 70%;
-}
-
-.newProducts .imageContainer {
-    width: 30%;
 }
 
 .newProducts button {
@@ -159,6 +156,24 @@ button {
     justify-content: space-evenly;
 }
 
+.navMenu li {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.navMenu a, i{
+    font-family: 'East Sea Dokdo', cursive;
+    font-size: 2.75rem;
+    text-align: center;
+    line-height: 36px;
+    display: block;
+}
+
+i {
+    color: #0178A5;  
+}
+
 /* SECTION 4 BRUSHES AND PAINT STYLES */
 
 .brushesAndPaint {
@@ -173,6 +188,7 @@ button {
 
 .brushesAndPaint .imageContainer {
     width: 50%;
+    object-fit: cover;
 }
 
 .brushesAndPaint .textContainer {
