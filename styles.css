@@ -205,10 +205,40 @@ i {
 
 /* FOOTER STYLES */
 
-footer {
-    
+footer .wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p {
+    margin: 0;
 }
 
 footer button {
     background-color: #0178A5;
+}
+
+p span {
+    display: block;
+}
+
+footer ul {
+    display: block;
+}
+
+label {
+    display: block;
+}
+
+.contacts {
+    text-align: right;
+}
+
+
+.copyright {
+    margin: 0;
+    background-color: #201E21;
+    color: #FFF;
+    text-align: center;
+    padding: 5px;
 }
