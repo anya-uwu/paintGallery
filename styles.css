@@ -50,7 +50,7 @@ nav a {
 /* HEADER STYLES */
 
 header {
-    height: 100vh;
+    height: 60vh;
     background: url(./assets/paint1.png);
     background-size: cover;
     padding: 50px 0;
@@ -192,14 +192,16 @@ i {
 }
 
 .brushesAndPaint .textContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 50%;
+    padding: 10px 50px;    
 }
 
 .brushesAndPaint button {
     background-color: #A7059B;
 }
-
-
 
 /* FOOTER STYLES */
 
