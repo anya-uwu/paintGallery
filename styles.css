@@ -196,12 +196,14 @@ i {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: flex-start;
     width: 50%;
-    padding: 10px 50px;    
+    padding: 10px 50px;  
 }
 
 .brushesAndPaint button {
     background-color: #A7059B;
+    display: block;
 }
 
 /* FOOTER STYLES */
