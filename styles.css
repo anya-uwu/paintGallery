@@ -210,10 +210,15 @@ footer .wrapper {
     display: flex;
     justify-content: space-between;
     padding: 50px;
+    align-items: flex-end;
 }
 
 footer p {
     margin: 0;
+}
+
+footer nav {
+    padding-right: 200px;
 }
 
 footer button {
@@ -234,14 +239,23 @@ p span {
 
 label {
     display: block;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 
 input {
     border: none;
+    height: 45px;
+    width: 300px;
+    padding: 0;
 }
 
 .contacts {
     text-align: right;
+}
+
+h3 {
+    font-size: 2.75rem;
 }
 
 
@@ -287,7 +301,7 @@ input {
     .exhibitions ul li:last-child {
         display: none;
     }
-    
+
 
 
 }
