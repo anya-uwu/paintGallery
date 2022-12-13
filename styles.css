@@ -331,4 +331,29 @@ h3 {
         width: 100%;
     }
 
+    /* FOOTER STYLES */
+
+    footer .wrapper {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between
+    }
+
+    footer nav {
+        padding-right: 0;
+    }
+
+    footer ul {
+        display: flex;
+        align-items: center;
+    }
+
+    footer nav a {
+        text-align: center;
+    }
+
+    .contacts {
+        text-align: center;
+    }
+
 }
