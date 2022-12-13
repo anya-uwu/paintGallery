@@ -304,6 +304,21 @@ h3 {
         display: none;
     }
 
+    .exhibitions li {
+        margin-right: 0px;
+    }
+
+    /* SECTION 3 MENU STYLES */
+
+    .navMenu ul {
+        flex-direction: column;
+    }
+
+    .navMenu li {
+        padding-top: 30px;
+    }
+
+    /* SECTION 4 BRUSHES AND PAINT STYLES */
 
 
 }
