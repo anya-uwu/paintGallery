@@ -53,6 +53,7 @@ header {
     height: 60vh;
     background: url(./assets/paint1.png);
     background-size: cover;
+    background-position: center top;
     padding: 50px 0;
 }
 
@@ -284,12 +285,21 @@ h3 {
 
     /* HEADER STYLES */
     
+    h1 span {
+        display: block;
+    }
+
     .standardNav {
         display: none;
     }
 
     .mobileNav {
-        display: block;
+        display: flex;
+        justify-content: flex-end;
+    }
+
+    .mobileNav i {
+        color: #FFF;
     }
 
 
