@@ -395,8 +395,20 @@ h3 {
         align-items: center;
     }
 
+    footer li {
+        margin-right: 40px;
+    }
+
+    footer li:last-child {
+        margin-right: 0;
+    }
+
     footer nav a {
         text-align: center;
+    }
+
+    .newsletter {
+        padding-top: 20px;
     }
 
     .contacts {
