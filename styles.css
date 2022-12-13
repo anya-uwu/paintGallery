@@ -264,7 +264,6 @@ h3 {
     font-size: 2.75rem;
 }
 
-
 .copyright {
     margin: 0;
     background-color: #201E21;
@@ -273,7 +272,7 @@ h3 {
     padding: 5px;
 }
 
-/* Responsive Design */
+/* RESPONSIVE DESIGN */
 
 @media (max-width: 930px) {
 
@@ -306,12 +305,7 @@ h3 {
         color: #FFF;
     }
 
-
     /* SECTION 1 NEW PRODUCTS STYLES */
-
-    .newProducts {
-
-    }
 
     .newProducts .wrapper {
         display: block;
