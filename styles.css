@@ -284,6 +284,10 @@ h3 {
     }
 
     /* HEADER STYLES */
+
+    h1 {
+        padding-top: 14vh;
+    }
     
     h1 span {
         display: block;
@@ -315,6 +319,7 @@ h3 {
 
     .newProducts .textContainer {
         width: 100%;
+        padding-top: 50px;
     }
 
     .newProducts .imageContainer {
@@ -342,6 +347,10 @@ h3 {
         padding-top: 30px;
     }
 
+    .navMenu li:first-child {
+        padding-top: 0;
+    }
+
     /* SECTION 4 BRUSHES AND PAINT STYLES */
 
     .brushesAndPaint .customWrapper {
@@ -358,6 +367,7 @@ h3 {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding: 50px 25px;
     }
 
     .brushesAndPaint {
