@@ -189,7 +189,6 @@ i {
 
 .brushesAndPaint .imageContainer {
     width: 50%;
-    object-fit: cover;
 }
 
 .brushesAndPaint .textContainer {
@@ -320,5 +319,16 @@ h3 {
 
     /* SECTION 4 BRUSHES AND PAINT STYLES */
 
+    .brushesAndPaint .customWrapper {
+        flex-direction: column;
+    }
+
+    .brushesAndPaint .imageContainer {
+        width: 100%;
+    }
+
+    .brushesAndPaint .textContainer {
+        width: 100%;
+    }
 
 }
