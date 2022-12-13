@@ -78,6 +78,10 @@ header nav a {
     padding: 15px 40px 0px 10px;
 }
 
+.mobileNav {
+    display: none;
+}
+
 /* GENERAL SECTION STYLES */
 
 h2 {
@@ -277,6 +281,17 @@ h3 {
     section {
         padding: 50px 0;
     }
+
+    /* HEADER STYLES */
+    
+    .standardNav {
+        display: none;
+    }
+
+    .mobileNav {
+        display: block;
+    }
+
 
     /* SECTION 1 NEW PRODUCTS STYLES */
 
